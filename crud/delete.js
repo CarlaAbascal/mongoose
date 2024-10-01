@@ -1,9 +1,9 @@
 require('../connection')
 
 const User = require('../models/User')
-//eliminar usuario pepe
+//eliminar usuario laura
 const someFunction = async () => {
-    const result = await User.deleteMany({username: 'pepe'});
+    const result = await User.deleteMany({username: 'laura'});
     console.log(result)
  }
  someFunction();
